@@ -1,0 +1,85 @@
+@font-face {
+    font-family: roboto;
+    src: url(../font/RobotoCondensed-VariableFont_wght.ttf);
+}
+*{
+    margin: 0px;
+    padding: opx;
+    font-family: roboto;
+}
+/* start nav */
+.nav_logo{
+    width: 170px;
+    height: 90px;
+    margin-left:100px ;
+    margin-top: 10px;
+}
+.nav_item{
+    
+    float: right;
+}
+.nav_bar{
+    display: inline-block;
+}
+.nav_item li{
+    display: inline-block;
+    padding-right: 50px;
+    padding-top: 45px;
+}
+.nav{
+    /* background-color: red; */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0,0.1) ;
+}
+.nav_item li a{
+    text-decoration: none;
+    color: black;
+}
+.nav_item li:last-child{
+    margin-right: 100px;
+}
+.nav_item_hover a:hover{
+    color: rgb(245, 76, 175) ;
+}
+.cart_noti{
+    position: relative;
+    top: -10px;
+    background-color: rgb(245, 76, 175) ;
+    border-radius: 50%;
+    padding: 4px;
+    left: -5px;
+}
+/* strat bunnder */
+.bunder_image{
+    width: 100%;
+}
+.carousel_tag{
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    background-color: rgba(0, 0,0,0.3);
+    color: white;
+    padding: 40px;
+}
+.carousel_tag h2{
+    margin-bottom: 15px;
+    /* color: rgb(235, 165, 206) ; */
+}
+.carousel_tag button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    background-color:rgb(235, 165, 206) ;
+    color: white;
+    border: 1px solid rgb(235, 165, 206);
+}
+.carousel_tag button:hover{
+    background-color: white;
+    color: rgb(235, 165, 206);
+    border: 1px solid rgb(235, 165, 206);
+}
+/* end bunnder */
+/* start service */
+
+
+

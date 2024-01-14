@@ -135,4 +135,78 @@ a:visited{
     width: 40%;
     float: right;
 }
+/* grid */
+.gridone div,.gridtwo div,.gridthree div,.gridfour div{
+    padding: 20px 0px;
+    color: aliceblue;
+    text-align: center;
+}
+.gridone{
+    display: grid;
+    grid-template-columns: auto  800px auto;
+}
+.gridtwo{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* grid-row-gap: 20px; */
+    /* grid-column-gap: 20px; */
+    grid-gap: 20px;
+}
+.gridthree,.gridfour{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.rowadd{
+    /* grid-row-start: 1; */
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.coulumnadd{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+/* position */
+.relative_partent{
+    border: 2px solid red;
+    width: 1000px;
+    height: 600px;
+}
+.position_relative{
+    border: 2px solid green;
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.absolute_partent{
+    border: 2px solid brown;
+    width: 1000px;
+    height: 600px;
+    position: relative;
+}
+.position_absolute{
+    border: 2px solid yellow;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.fixed{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+.online_font{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+@font-face {
+    font-family:lemon ;
+    src: url(../Lemon/Lemon-Regular.ttf);
+}
+.offline_font{
+    font-family: lemon;
+}
 
