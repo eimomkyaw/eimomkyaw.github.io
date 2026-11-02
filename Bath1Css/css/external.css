@@ -135,6 +135,8 @@ a:visited{
     width: 40%;
     float: right;
 }
+
+
 /* grid */
 .gridone div,.gridtwo div,.gridthree div,.gridfour div{
     padding: 20px 0px;
@@ -165,6 +167,8 @@ a:visited{
     grid-column-start: 1;
     grid-column-end: 3;
 }
+
+
 /* position */
 .relative_partent{
     border: 2px solid red;
